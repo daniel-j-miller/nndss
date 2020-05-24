@@ -61,7 +61,7 @@ for key in causeList:
 		row_text_array.append(row_text)
 
 
-	with open("count.csv", "a") as f:
+	with open("data/count.csv", "a") as f:
 		wr = csv.writer(f)
 		# loop through each row array
 		for row_text_single in row_text_array:
@@ -71,7 +71,7 @@ for key in causeList:
 	time.sleep(2)
 
 
-with open("rate.csv", "w") as f:
+with open("data/rate.csv", "w") as f:
     wr = csv.writer(f)
     wr.writerow(col_headings)
 
