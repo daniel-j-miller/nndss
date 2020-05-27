@@ -13,7 +13,7 @@ driver = webdriver.Chrome('chromedriver', options=options)
 
 driver.get("http://www9.health.gov.au/cda/source/rpt_4_sel.cfm")
 
-soup = BeautifulSoup(driver.page_source)
+soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 table = soup.find('select')
 

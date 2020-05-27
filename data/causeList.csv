@@ -1,0 +1,71 @@
+idNo,cause
+058,Anthrax
+063,Australian bat lyssavirus infection
+048,Barmah Forest virus infection
+045,Botulism
+004,Brucellosis
+081,COVID-19
+005,Campylobacteriosis
+006,Chancroid
+078,Chikungunya virus infection
+007,Chlamydial infection
+008,Cholera
+061,Cryptosporidiosis
+003,Dengue virus infection
+009,Diphtheria
+010,Donovanosis
+001,Flavivirus infection (unspecified)
+011,Gonococcal infection
+055,Haemolytic uraemic syndrome (HUS)
+012,Haemophilus influenzae type b
+037,Hepatitis (NEC)
+038,Hepatitis A
+039,Hepatitis B (newly acquired)
+052,Hepatitis B (unspecified)
+040,Hepatitis C (newly acquired)
+053,Hepatitis C (unspecified)
+050,Hepatitis D
+051,Hepatitis E
+062,Influenza (laboratory confirmed)
+059,Japanese encephalitis virus infection
+015,Legionellosis
+016,Leprosy
+017,Leptospirosis
+018,Listeriosis
+064,Lyssavirus infection (NEC)
+020,Malaria
+021,Measles
+022,Meningococcal disease (invasive)
+079,Middle East respiratory syndrome coronavirus
+043,Mumps
+049,Murray Valley encephalitis virus infection
+044,NON TB MYCO
+023,Ornithosis
+080,Paratyphoid
+024,Pertussis
+025,Plague
+065,Pneumococcal disease (invasive)
+026,Poliovirus infection
+027,Q fever
+028,Rabies
+002,Ross River virus infection
+077,Rotavirus
+029,Rubella
+046,Rubella congenital
+054,STEC
+030,Salmonellosis
+031,Shigellosis
+069,Smallpox
+066,Syphilis < 2 years
+067,Syphilis > 2 years or unspecified duration
+047,Syphilis congenital
+033,Tetanus
+034,Tuberculosis
+070,Tularaemia
+035,Typhoid Fever
+073,Varicella zoster (chickenpox)
+074,Varicella zoster (shingles)
+075,Varicella zoster (unspecified)
+036,Viral haemorrhagic fever (NEC)
+060,West Nile/Kunjin virus infection
+041,Yellow fever
