@@ -24,6 +24,9 @@ with open("data/count_aus.csv", "w") as f:
 
 driver.get("http://www9.health.gov.au/cda/source/rpt_3_sel.cfm")
 soup = BeautifulSoup(driver.page_source, 'html.parser')
+causeList = {}
+table = soup.find('select')
+rows = table.find_all('option')
 
 for tag in rows:
 	idNo = tag.get('value')
