@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -15,7 +17,7 @@ driver = webdriver.Chrome('chromedriver',options=options)
 
 col_headings = ['YEAR', 'ACT', 'NSW', 'NT', 'QLD', 'SA', 'TAS', 'VIC', 'WA', 'Aust', 'condition', 'updated']
 
-with open("data/count_jur.csv", "w") as f:
+with open("/home/pi/nndss/data/count_jur.csv", "w") as f:
     wr = csv.writer(f)
     wr.writerow(col_headings)
 
@@ -62,7 +64,7 @@ for key in causeList:
 		row_text_array.append(row_text)
 
 
-	with open("data/count_jur.csv", "a") as f:
+	with open("/home/pi/nndss/data/count_jur.csv", "a") as f:
 		wr = csv.writer(f)
 		# loop through each row array
 		for row_text_single in row_text_array:
@@ -72,7 +74,7 @@ for key in causeList:
 	time.sleep(2)
 
 
-with open("data/rate_jur.csv", "w") as f:
+with open("/home/pi/nndss/data/rate_jur.csv", "w") as f:
     wr = csv.writer(f)
     wr.writerow(col_headings)
 
@@ -108,7 +110,7 @@ for key in causeList:
 		row_text_array.append(row_text)
 
 
-	with open("data/rate_jur.csv", "a") as f:
+	with open("/home/pi/nndss/data/rate_jur.csv", "a") as f:
 		wr = csv.writer(f)
 		# loop through each row array
 		for row_text_single in row_text_array:
@@ -122,7 +124,7 @@ for key in causeList:
 
 col_headings = ['YEAR', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'Total', 'condition', 'updated']
 
-with open("data/count_aus.csv", "w") as f:
+with open("/home/pi/nndss/data/count_aus.csv", "w") as f:
     wr = csv.writer(f)
     wr.writerow(col_headings)
 
@@ -161,7 +163,7 @@ for key in causeList:
 		row_text_array.append(row_text)
 
 
-	with open("data/count_aus.csv", "a") as f:
+	with open("/home/pi/nndss/data/count_aus.csv", "a") as f:
 		wr = csv.writer(f)
 		# loop through each row array
 		for row_text_single in row_text_array:
@@ -172,7 +174,7 @@ for key in causeList:
 
 col_headings = ['YEAR', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'condition', 'updated']
 
-with open("data/rate_aus.csv", "w") as f:
+with open("/home/pi/nndss/data/rate_aus.csv", "w") as f:
     wr = csv.writer(f)
     wr.writerow(col_headings)
 
@@ -208,7 +210,7 @@ for key in causeList:
 		row_text_array.append(row_text)
 
 
-	with open("data/rate_aus.csv", "a") as f:
+	with open("/home/pi/nndss/data/rate_aus.csv", "a") as f:
 		wr = csv.writer(f)
 		# loop through each row array
 		for row_text_single in row_text_array:
