@@ -219,12 +219,6 @@ for key in causeList:
 	driver.get("http://www9.health.gov.au/cda/source/rpt_3_sel.cfm")
 	time.sleep(2)
 
-os.system("git add .")
+os.system("cd /home/pi/nndss && git add . && git commit -m 'automated commit' && git push")
 
-time.sleep(2)
-
-os.system("git commit -m 'automated commit from rpi' ")
-
-time.sleep(2)
-
-os.system("git push")
+print("Completed job without error!")
