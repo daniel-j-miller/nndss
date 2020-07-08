@@ -7,14 +7,12 @@ import csv
 import os
 
 
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
 
-#options = webdriver.ChromeOptions()
-#options.add_argument('--headless')
-#options.add_argument('--no-sandbox')
-#options.add_argument('--disable-dev-shm-usage')
-
-#driver = webdriver.Chrome('chromedriver',options=options)
+driver = webdriver.Chrome('chromedriver',options=options)
 
 col_headings = ['condition', 'ACT', 'NSW', 'NT', 'Qld', 'SA', 'Tas', 'Vic', 'WA', 'Aust', 'Aust YTD', 'updated']
 
