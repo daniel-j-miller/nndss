@@ -66,7 +66,7 @@ for y in years:
             wr = csv.writer(f)
             # loop through each row array
             for row_text_single in row_text_array:
-                wr.writerow(row_text_single + [month, year, updated])
+                wr.writerow(row_text_single + [m, y, updated])
 
         driver.get("http://www9.health.gov.au/cda/source/rpt_1_sel.cfm")
         time.sleep(3)
