@@ -1,9 +1,3 @@
 # nndss
+archive of script used to scrape the former Australia Government Department of Health National Notifiable Disease Surveillance System
 
-stuff and things
-
-more stuff and things
-
-last test bit
-
-almost
